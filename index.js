@@ -5,8 +5,8 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
-function nowServing() {
-  var first = katzDeli[0];
+function nowServing(katzDeliLine) {
+  var first = katzDeliLine[0];
   katzDeli.shift();
-  
+  return `Now serving ${first}`;
 }
