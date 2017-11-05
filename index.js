@@ -8,5 +8,5 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   var first = katzDeliLine[0];
   katzDeli.shift();
-  return `Now serving ${first}`;
+  return `Currenly serving ${first}`;
 }
