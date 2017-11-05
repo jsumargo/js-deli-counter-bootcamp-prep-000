@@ -23,7 +23,6 @@ function currentLine(katzDeliLine) {
       if (i < katzDeliLine.length - 1) {
         str += ", ";
       }
-      else { str += " ";}
     }
     return str;
   } else {
